@@ -46,3 +46,5 @@ weather-dashboard/
 ├── server/     # ASP.NET Core Web API backend
 ├── .gitignore
 └── README.md
+
+Built by **Nahome Hailemichael**
