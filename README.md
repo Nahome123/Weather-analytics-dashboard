@@ -1,54 +1,43 @@
 # Weather Dashboard
 
 A full-stack weather dashboard built with **React** on the frontend and **ASP.NET Core Web API** on the backend.  
-The application lets users search for weather information through a clean and responsive interface, while the backend handles API requests, business logic, and optional database storage.
+This project is currently set up to run **locally** for development and testing.
 
-## Project Overview
+## Overview
 
-This project was built to demonstrate full-stack development skills using a modern frontend and backend architecture. It combines:
+This application allows users to search and view weather data through an interactive dashboard interface.  
+The frontend handles the user experience, while the backend manages API requests, business logic, and database interaction.
 
-- **React** for the user interface
-- **ASP.NET Core Web API** for backend services
-- **PostgreSQL / SQL database support** for storing data if needed
-- **External weather API integration** for real-time weather data
-- **Vercel** for frontend deployment
-- **Render** for backend deployment
+The project was built to practice and demonstrate:
 
-The goal of the project is to create a weather dashboard that is interactive, easy to use, and structured in a way that reflects a real-world full-stack application.
-
-## Features
-
-- Search weather by city
-- Display current weather data
-- Responsive and interactive UI
-- Backend API integration
-- Environment-based configuration
-- Ready for cloud deployment
-- Scalable project structure for future enhancements
+- full-stack development
+- frontend and backend integration
+- API usage
+- SQL database connectivity
+- clean project structure
+- responsive UI design
 
 ## Tech Stack
 
 ### Frontend
 - React
 - Vite
-- JavaScript / TypeScript
-- HTML5
-- CSS3
+- JavaScript
+- CSS
 
 ### Backend
 - ASP.NET Core Web API
 - C#
-- Entity Framework Core
 
 ### Database
-- PostgreSQL (recommended for deployment)
-- SQL-based persistence support
+- SQL Server Express with LocalDB
 
-### Deployment
-- Vercel (frontend)
-- Render (backend)
+### Tools
+- Visual Studio Code
+- SQL Server Express / LocalDB
+- SSMS or Azure Data Studio (optional)
 
-## Folder Structure
+## Project Structure
 
 ```bash
 weather-dashboard/
